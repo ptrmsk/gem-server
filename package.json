@@ -1,6 +1,6 @@
 {
   "name": "gem-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple zero-configuration command-line gemini server",
   "scripts": {
     "start": "node ./index.js",
