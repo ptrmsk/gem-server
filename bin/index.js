@@ -6,7 +6,7 @@ const fs = require('fs');
 const { readFileSync, existsSync } = fs;
 
 const { ArgumentParser } = require('argparse');
-const { version } = require('./package.json');
+const { version } = require('../package.json');
 
 // argument parser
 const parser = new ArgumentParser({
