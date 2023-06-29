@@ -23,14 +23,18 @@
   ],
   "author": "ptrmsk",
   "license": "ISC",
+  "engines": {
+    "node": ">=12.16"
+  },
   "bugs": {
     "url": "https://github.com/ptrmsk/gem-server/issues"
   },
   "homepage": "https://github.com/ptrmsk/gem-server#readme",
-  "devDependencies": {
+  "dependencies": {
     "argparse": "^2.0.1",
     "gemini-server": "git+https://github.com/ptrmsk/gemini-server.git"
   },
+  "preferGlobal": true,
   "bin": {
     "gem-server": "./bin/index.js"
   }
