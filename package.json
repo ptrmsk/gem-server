@@ -27,7 +27,7 @@
     "url": "https://github.com/ptrmsk/gem-server/issues"
   },
   "homepage": "https://github.com/ptrmsk/gem-server#readme",
-  "dependencies": {
+  "devDependencies": {
     "argparse": "^2.0.1",
     "gemini-server": "git+https://github.com/ptrmsk/gemini-server.git"
   },
