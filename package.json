@@ -32,7 +32,7 @@
   "homepage": "https://github.com/ptrmsk/gem-server#readme",
   "dependencies": {
     "argparse": "^2.0.1",
-    "gemini-server": "^2.1.1"
+    "gemini-server": "git+https://github.com/ptrmsk/gemini-server.git"
   },
   "preferGlobal": true,
   "bin": {
